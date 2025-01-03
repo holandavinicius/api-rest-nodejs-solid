@@ -1,0 +1,30 @@
+{
+  "name": "03-api-rest-nodejs-solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
+    "@types/node": "22.10.3",
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "prisma": "6.1.0",
+    "tsup": "8.3.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "16.4.7",
+    "fastify": "5.2.0",
+    "zod": "3.24.1"
+  }
+}
